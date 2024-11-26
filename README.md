@@ -4,7 +4,7 @@ This project implements a simple Customer and Order management system using Djan
 
 ## Requirements  
 
- The following should be installed.
+ The following should be installed:
 
 - Python  
 - pip (Python package installer)  
@@ -38,18 +38,18 @@ In Powershell,
  py -m pip install Django
 ```
 
-4. **Create a Project**
+4. **Create a Project**:
    ```bash
    django-admin startproject customer_relationship
    ```
    
-5. **Running the Project**
+5. **Running the Project**:
    ```bash
    py manage.py runserver
    ```
    Open browser (ctrl+click).
    
-7. **Create App**
+7. **Create App**:
    ```bash
    py manage.py startapp customer
    ```
@@ -78,7 +78,7 @@ urlpatterns = [
 ]
 ```
 
-10. **Create Web Page***   
+10. **Create Web Page**  
 Created a new folder under the customer app called _Templates_.
 In Templates add a new file _index.html_ and added the expected content.
 **Change settings in the _settings.py_ file of the project**:
@@ -138,4 +138,4 @@ class Migration(migrations.Migration):
     ]
 ```
 
-##Licence
+## Licence
